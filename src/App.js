@@ -37,6 +37,11 @@ class App extends Component {
           </main>
           <div className="buttons">
             <button onClick={() => this.handlePrevious()}> {'< Previous'} </button>
+              <div className="blackDiamond">
+                <button>Edit</button>
+                <button>Delete</button>
+                <button>New</button>
+              </div>
             <button onClick={() => this.handleNext()}> {'Next >'} </button>
           </div>
         </div>
